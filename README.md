@@ -1,5 +1,5 @@
 # Tesla-rent
-
+```cs
 using Microsoft.Data.Sqlite;
 using System;
 
@@ -72,3 +72,4 @@ class Program
         }
     }
 }
+```
