@@ -36,7 +36,7 @@ class Program
                 
                 //Promt user for tesla horlyrate
                 Console.WriteLine("Please enter Tesla hourlyrate");
-                string teslaHourlyrate = Console.ReadLine();
+                double teslaHourlyrate = Console.ReadLine();
 				
 				//Promt user for tesla kilometerarte
                 Console.WriteLine("Please enter Tesla kilometerrate");
