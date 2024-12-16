@@ -68,7 +68,7 @@ class Program
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Test");
+            Console.WriteLine("\nTesla has been added to the database successfully!\n");
         }
     }
 }
