@@ -44,7 +44,7 @@ class Program
 				
 				// Insert data in SQL lite database
                 var insertCmd = connection.CreateCommand();
-                insertCmd.CommandText = "INSERT INTO Teslas(Name, Size, Price) VALUES (@name, @size, @price)";
+                insertCmd.CommandText = "INSERT INTO Teslas(Model, HourlyRate, KilometerRate) VALUES (@model, @hourlyrate, @kilometerrate)";
                 insertCmd.Parameters.AddWithValue("@model", teslaModel);
                 insertCmd.Parameters.AddWithValue("@hourlyrate", teslaHourlyrate);
                 insertCmd.Parameters.AddWithValue("@kilometerrate", teslaKilometerrate);
